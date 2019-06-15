@@ -21,8 +21,8 @@ def current_player(board)
     end
   end
   if i % 2 == 0
-    return "O"
-  else
     return "X"
+  else
+    return "O"
   end
 end
