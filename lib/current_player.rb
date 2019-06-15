@@ -1,9 +1,8 @@
 def turn_count(board)
   i = 0
-  player_symbols = ["X", "O"]
-  player_symbols.each do |i|
-    puts "current amount: #{i}"
-    i +=
+  board.each do |p_symbol|
+    if p_symbol == "X" || p_symbol =="O"
+      i += 1  
 end
 
 def current_player
