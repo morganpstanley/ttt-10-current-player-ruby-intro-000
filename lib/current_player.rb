@@ -12,8 +12,8 @@ end
 
 def current_player(i)
   if i % 2 == 0
-    current_player = "X"
-  else
     current_player = "O"
+  else
+    current_player = "X"
   end
 end
