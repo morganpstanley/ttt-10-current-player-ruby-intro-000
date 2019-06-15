@@ -12,7 +12,6 @@ end
 
 def current_player(board)
   i = 0
-  a = ""
   board.each do |p_symbol|
     if p_symbol == "X" || p_symbol == "O"
       i += 1
